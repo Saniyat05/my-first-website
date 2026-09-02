@@ -1,0 +1,164 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой первый сайт</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+        background: linear-gradient(135deg, #d8b4fe, #fbcfe8);
+        font-family: Arial, sans-serif;
+        text-align: center; 
+        padding-top: 50px;
+        }
+    nav {
+        background-color: white;
+        padding: 15px;
+        border-radius: 15px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    nav a:hover {
+        background-color: #8e44ad;
+        transform: scale(1.05);
+    }
+        h1 {
+            color: #8e44ad;
+        }
+        h2 { color: #2c3e50;
+        }
+        p {
+            color: #555;
+            font-size: 18px;
+        }
+        .card {
+            background-color: white;
+            width: 100%;
+            max-width: 500px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.1);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+        img {
+            width: 200px;
+            border-radius: 50px;
+        }
+        img {
+            width: 200px;
+            border-radius: 50%;
+            border: 4px solid #8e44ad;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        button {
+            background-color: #8e44ad;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #6c3483;
+        }
+        a {
+            display: inline-block;
+            background-color: #8e44ad;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 10px;
+            margin-top: 20px;
+        
+        }
+        a:hover {
+            background-color: #6c3483;
+        }
+        ul {
+            text-align: left;
+            width: 180px;
+            margin: 20px auto;
+            padding: 0;
+        }
+        li {
+            margin: 8px 0;
+            font-size: 18px;
+        }
+        a {
+            margin-bottom: 20px;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }    
+        .contact{
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f8f0ff;
+            border-radius: 15px;
+        }
+        .contact-button {
+            display: inline-block;
+          transition: 0.3s;
+    }
+        @media (max-width: 600px) {
+            .card {
+                padding: 20px;
+            }
+        }
+    </style>
+        </head>
+        <body>
+            <nav>
+                <a href="#home">Главная</a>
+                <a href="#about">Обо мне</a>
+                <a href="#skills">Навыки</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+           <div class="card" id="home">
+            <h1 title="Привет, Соня!">Привет!</h1>
+            <img src="photo.jpg..jpg" alt="Моя фотография">
+            <h2 id="about">Меня зовут Соня</h2>
+            <p>Я начинаюшая Frontend-разработница.</p>
+            <p>Раньше работала графическим дизайнером.</p>
+            <p>Сейчас изучаю HTML, CSS и JavaScript.</p>
+            <p>Мне 21 год и я изучаю веб-разработу.</p>
+            <a class="contact-buton" href="#contacts">Связаться сомной</a>
+            <p>Моя цель - стать Frontend-разработчиком.</p>
+            <h2 id="skills">Мои навыки</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Изучаю JavaScript</li>
+            </ul>
+            <div class="contact">
+            <h2 id="contacts">Контакты</h2>
+            <p>Связаться со мной:</p>
+            <a href="mailto:saniyat.gasanova.05@inbox.ru">Написать мне на почту</a>
+        </div>
+        </div>
+        </body>
+        </html>
+    
